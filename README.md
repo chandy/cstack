@@ -4,17 +4,26 @@ Chris Handy's agent-dotfiles: **skills**, rules, and evals for operating Chris O
 
 This repo is the source of truth for *procedures* (how agents should behave). Notion remains the source of truth for *wiki content* (commitments, projects, tasks, knowledge). Google Calendar is time. Chat is intake, not memory.
 
+## Cursor plugin
+
+cstack is a **personal local Cursor plugin** (same shape as [pstack](https://github.com/cursor/plugins/tree/main/pstack), tiny). It is not a marketplace listing.
+
+- Manifest: [`.cursor-plugin/plugin.json`](.cursor-plugin/plugin.json)
+- Skills path: `"skills": "./skills/"` — Cursor loads skills from that folder when the plugin is opened/installed
+- Do **not** duplicate skills under `.cursor/skills/` or `.agents/skills/`
+
+Open or install this repo as a Cursor plugin so `chris-os` (and future skills under `skills/`) load from the canonical path.
+
 ## Layout
 
 ```
+.cursor-plugin/  # plugin.json (name, skills path, metadata)
 skills/          # Canonical agent skills (one folder per skill, each with SKILL.md)
 evals/           # Lightweight fixture prompts + expected behaviors (no heavy harness)
 README.md        # This file
 ```
 
 One true path for skills: **`skills/<name>/SKILL.md`**.
-
-Cursor and other hosts may also look under `.cursor/skills/` or `.agents/skills/`. Do not maintain duplicate copies in this repo. If a host needs a different discovery path, symlink or copy from `skills/` at install time — do not fork the content.
 
 ## Skills
 
