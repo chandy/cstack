@@ -2,7 +2,7 @@
   "name": "cstack",
   "displayName": "cstack",
   "version": "0.1.0",
-  "description": "Chris Handy's personal agent-dotfiles for operating Chris OS — skills that keep Notion as the wiki, Calendar as time, and chat as intake.",
+  "description": "Chris Handy's personal agent-dotfiles / skills for operating Chris OS.",
   "author": {
     "name": "Chris Handy"
   },
