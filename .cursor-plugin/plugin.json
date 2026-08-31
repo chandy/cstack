@@ -1,0 +1,18 @@
+{
+  "name": "cstack",
+  "displayName": "cstack",
+  "version": "0.1.0",
+  "description": "Chris Handy's personal agent-dotfiles / skills for operating Chris OS.",
+  "author": {
+    "name": "Chris Handy"
+  },
+  "homepage": "https://github.com/chandy/cstack",
+  "repository": "https://github.com/chandy/cstack",
+  "keywords": [
+    "cstack",
+    "chris-os",
+    "notion",
+    "skills"
+  ],
+  "skills": "./skills/"
+}
