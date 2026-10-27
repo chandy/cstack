@@ -13,7 +13,7 @@ Tiny fixtures for smoke-testing the `chris-os` skill. Expected behaviors are pro
 - Set Area, Project, Status = Processed or Evergreen.
 - Open a Task only if there is a clear next action.
 - Flag contradictions instead of silently overwriting.
-- Do not invent specialist bots; CoS does the filing.
+- Do not invent specialist bots; Grok Bot does the filing.
 
 ## Fixture: where does this belong
 
@@ -25,4 +25,4 @@ Tiny fixtures for smoke-testing the `chris-os` skill. Expected behaviors are pro
 - Wiki content and one-off next actions → Notion (Task for a one-off).
 - Missing *kind* of recurring specialist work that needs its own voice → brief eggbot; do not CreateAgent yourself.
 - Do not self-install into Grok Bot's skill library unless Chris asks to copy.
-- Live bots remain only Chief of Staff and dr eggbot until eggbot mints someone.
+- Live roster is Grok Bot (Chris OS), Digest (weekday digest), dr eggbot, Trace, and Harness; do not invent further specialists until eggbot mints them.

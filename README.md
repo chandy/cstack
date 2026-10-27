@@ -35,7 +35,7 @@ Add new skills as `skills/<name>/SKILL.md` with YAML frontmatter (`name`, pushy 
 
 ## Grok Bot install
 
-Grok Bot's skill library is a **copy** of skills from this repo, installed only when Chris says to copy. Agents must not self-install into Grok Bot. Live bots are only Chief of Staff and dr eggbot until eggbot mints specialists.
+Grok Bot's skill library is a **copy** of skills from this repo, installed only when Chris says to copy. Agents must not self-install into Grok Bot. Live roster: Grok Bot runs Chris OS; Digest owns the weekday digest; plus dr eggbot, Trace, and Harness.
 
 ## Notion (Chris OS)
 
