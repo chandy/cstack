@@ -58,7 +58,7 @@ Chat captures. Notion remembers. Calendar schedules. Competing sources get compi
 ## Roster and routing
 
 | Who | Does | Does not |
-| --- | --- |
+| --- | --- | --- |
 | Grok Bot | Operate Chris OS: ingest, query, lint, file both Inboxes, keep the board honest, brief eggbot when a standing job is missing | Mint specialist bots; send email / publish / delete without Chris; run the weekday morning digest timer |
 | Digest | Weekday 6:30 ET morning digest in its own short chat (calendars, actionable overnight mail, Inbox filing for the digest, one prep item) | Rest of Chris OS; mint bots |
 | dr eggbot | Design and create Grok Bots (one job, one voice, explicit anti-jobs) | Run the OS or do the specialist work it designed |
